@@ -1,0 +1,132 @@
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+
+@media (max-width: 576px) { 
+        /* ===================index page=============== */
+
+    /* =====navbar===== */
+    
+    .navbar-nav {
+        text-align: center;
+        position: absolute;
+        z-index: 9999;
+        top: 106px;
+        background-color: rgba(57, 53, 53, 0.925);
+        width: 90%;
+        box-shadow:1px 2px 4px rgba(128, 128, 128, 0.779);
+    }
+    
+
+  
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) { 
+    /* ===================index page=============== */
+    /* ============navbar=========== */
+    .navbar-nav {
+        text-align: center;
+        position: absolute;
+        z-index: 9999;
+        top: 106px;
+        background-color: rgba(57, 53, 53, 0.925);
+        width: 90%;
+        box-shadow:1px 2px 4px rgba(128, 128, 128, 0.779);
+    }
+    /* = section travi john === */
+    .model_bg::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(14, 8, 8, 0.201);
+        
+    }
+    .model_bg{
+        background-position: top;
+    }
+    .left_ {
+        max-width: 100%;
+    }
+    .tile_left{
+        color: rgb(4, 183, 254);
+        font-size: 2rem;
+    }
+    .desc_left{
+        color: rgb(4, 183, 254);
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    .btn_left{
+        color: rgb(254, 255, 255);
+        width: 135px;
+        height: 35px;
+    outline: 2px solid rgb(231, 240, 240);  
+    }
+
+    /* ===========blog page============ */
+    .blog_model_title {
+        max-width: 330px;
+        margin-bottom: 0.5rem;
+    }
+    /* ===section top===== */
+    .second_part1{
+        order: 45;
+    }
+    .second_part1 .div_content1{
+       text-align: justify;
+    }
+    .blog_model_title1 {
+        max-width: unset;
+        margin-bottom: unset;
+        margin-left: unset;
+        text-align: left;
+    }
+    .second_part2{
+        order: 25;
+    }
+    
+
+.div_content {
+    max-width: unset; 
+     margin: unset; 
+}
+.div_content1 {
+    text-align: right;
+    max-width: unset;
+    margin: unset;
+}
+    
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {
+    /* =====contact page======= */
+    iframe{
+        width: 100%;
+        overflow: hidden;
+        max-height: 350px;   
+    }
+    .contact input{
+        margin-left: 2px;
+         }
+         .contact textarea {
+            margin-left: 0px;
+            margin-top: 13px;
+        }
+  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {  }

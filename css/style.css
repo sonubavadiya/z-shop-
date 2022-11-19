@@ -1,0 +1,464 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1100px;
+}
+.bg_img{
+    background-image: url('../images/bg3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-item .active{
+ background-color: white;
+    color: black !important;
+}
+.nav-item .nav-link{
+width: 90px;
+display: flex;
+justify-content: center ;
+}
+.nav-item .nav-link:hover{
+    background-color: white;
+    color: black !important; 
+} 
+.navbar .fa-solid, .fas{
+    color: #fff;
+}
+.navbar-toggler{
+    --bs-navbar-toggler-focus-width: 0;
+}
+
+
+
+#carosl .fa-solid, .fas {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+
+/* ============banner section ========== */
+.dark_::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0rem;
+  left:0;
+width: 100%;
+height: 100%;
+background-color: rgba(42, 29, 29, 0.228);
+}
+.img_div{
+    height: 100%;
+}
+.dark_{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img_wrap1{
+    background-image: url('../images/1.jpg'); 
+}
+.img_wrap1::before{
+    background-color: rgba(42, 35, 29, 0.228);
+}
+.img_wrap2{
+    background-image: url('../images/2.jpg');
+}
+.img_wrap3{
+    background-image: url('../images/3.jpg');
+    
+}
+.img_wrap4{
+    background-image: url('../images/4.jpg');
+   
+}
+.img_wrap5{
+    background-image: url('../images/5.jpg');
+    
+}
+.img_wrap6{
+    background-image: url('../images/6.jpg');
+}
+
+
+
+#banner_img .img_overlay{
+position: absolute;
+top: 0rem;
+left:0 ;
+width: 100%;
+height: 100%;
+background-color: rgb(239 167 167 / 91%);
+color: white;
+}
+#banner_img .img_overlay.orange{
+background-color: rgba(242, 170, 133, 0.91);
+}
+#banner_img .img_overlay.blue{
+background-color: rgba(161, 195, 250, 0.91);
+}
+#banner_img .img_overlay.purple{
+background-color: rgba(198, 149, 244, 0.91);
+}
+#banner_img .img_overlay.green{
+background-color: rgba(191, 211, 155, 0.91);
+}
+#banner_img .img_overlay.sky{
+background-color: rgba(187, 252, 246, 0.91);
+}
+
+
+#banner_img .img_overlay:hover{
+    background-color: rgba(243, 122, 122, 0);
+    transition: all .5s ease;
+
+}
+#banner_img .img_title{
+    font-size: 55px;
+    padding: 23px 34px 0;
+    color: white;
+
+}
+#banner_img .img_Desc_1{
+    font-size: 35px;
+    padding-top: 1rem;
+    padding-left: 23px;
+    color: white;
+}
+#banner_img .img_Desc_2{
+    font-size: 15px;
+    padding-left: 23px;
+    padding-bottom: 23px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* ====== section travi john ===== */
+.model_bg{
+    background-image: url('../images/model.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-size: cover; */
+}
+.left_{
+    max-width: 50%;
+}
+  .tile_left{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.desc_left{
+    font-size: 1.10rem;
+    padding-bottom: 2rem;
+}
+.btn_left{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 45px;
+outline: 1px solid rgb(5, 119, 119);  
+border-radius: 43px;  
+margin: auto
+}
+.btn_left {
+    text-decoration: none;
+    color: rgb(7, 104, 104);
+    font-weight: 500;
+    font-size: large;
+    transition: all .4s ease;
+}
+.btn_left:hover{
+background-color: rgb(5, 141, 141);
+color: #fff;
+}
+
+
+/* branding section */
+
+
+#sec_brand .brand_overlay .brand_txt{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 20px;
+    left: 0;
+    opacity: 0;
+    transition: all .4s ease;
+    
+}
+#sec_brand .brand_wrap{
+    height: 250px;
+    display: flex !important; 
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(213, 210, 210, 0.315);
+}
+#sec_brand .brand_wrap:hover .brand_txt{
+height: 15%;
+opacity: 1;
+font-size: 1.20rem;
+}
+#sec_brand .brand_wrap:hover .brand{
+transform: scale(0.9);
+transition: all .4s ease;
+}
+
+
+/* ==========section bg map============= */
+
+#sec_map .map_bg{
+    background-image: url('../images/world-map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+}
+#sec_map .wrap{
+    max-width: 950px;
+    text-align: center;
+}
+#sec_map .desc_{
+    max-width: 646px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+#sec_map .contact{
+    padding-top: 5rem;
+}
+
+.button{
+    color: rgb(5, 119, 119);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 50px;
+outline: 1px solid rgb(5, 119, 119);  
+border-radius: 43px;  
+text-decoration: none;
+margin-left: 2rem;
+font-size: 1.25rem;
+}
+.button:hover{
+    background-color: rgb(5, 141, 141);
+color: #fff;
+transition: all .4s ease;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 50%;
+    padding-bottom: .8rem;
+    margin-left: 2.3rem;
+    
+}
+input::placeholder{
+color: black;
+font-size: 1.2rem;
+padding-left: 14px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -- section bottom  */
+
+.mid_botm a{
+color: rgb(151, 148, 148);
+text-decoration: none;
+display: block;
+padding-bottom: 12px;
+}
+.mid_botm li{
+border-bottom: 1px solid rgb(177, 174, 174);
+padding-top: 8px;
+}
+.mid_botm li:nth-child(5){
+border-bottom: none;
+}
+.mid_desc{
+    font-size: 14px;
+    cursor: pointer;  
+}
+.mid_desc:last-child{
+    border-bottom: none;
+}
+.mid_botm{
+    color: rgb(202, 195, 195);
+}
+ li{
+    list-style: none;
+ }
+ .right_desc{
+    color: rgb(206, 192, 192);
+ }
+
+
+ /* -- section footer -- */
+
+.div_soc_icon .fa-brands {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+
+ .footer{
+    background-color: transparent;
+ }
+ .sec_botm .bg_dark{
+    background-color: rgb(0, 0, 0);
+ }
+ .div_soc_icon a{
+    color: rgb(213, 208, 208);
+ }
+ .div_soc_icon p{
+    color: rgb(191, 182, 182);
+ }
+ .carousel button{
+    opacity: 0;
+ }
+ .carousel:hover button{
+    opacity: 1;
+ }
+
+ /* <!-- sectinon content --> */
+ .singr_des{
+    max-width:780px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 8rem;
+ }
+ .singr_des .specl {
+    max-width: 602px;
+    margin-left: 4.5rem;
+    font-style: italic;
+   
+ }
+ .singr_des .specl::before{
+    content: "";
+    height: 50px;
+    display: block;
+    position: absolute;
+    margin: 0 -30px;
+  border: 2px solid rgba(27, 122, 126, 0.855);
+ }
+ .speclfooter::before{
+    content: "";
+    height: 16px;
+    /* width:2.5px; */
+    display: block;
+    position: absolute;
+    margin: 4px -14px;
+    background-color: rgb(27, 123, 126) ;
+  border: 1.5px solid rgb(27, 123, 126);
+ }
+ code{
+    font-size: 16px;
+ }
+ .singr_des li{
+    list-style: circle;
+    margin-left: 1rem;
+    font-size: 17px;
+    color: rgb(98, 84, 84) !important;
+ }
+ .form-control {
+    border-radius: 0;
+    width: 100%;
+ }
+
+
+ .button2{
+    color: rgb(5, 119, 119);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 44px;
+outline: 1px solid rgb(5, 119, 119);  
+border-radius: 43px;  
+text-decoration: none;
+margin-left: 2rem;
+font-size: 1.25rem;
+}
+.button2:hover{
+    background-color: rgb(5, 141, 141);
+color: #fff;
+transition: all .4s ease;
+}
+
+
+/* ====================blog page =============== */
+
+/* section top */
+
+.div_content{
+    
+    max-width: 380px;
+    margin:25px auto;
+}
+.blog_model_title{
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+}
+.moedl_img{
+height: 100%;
+width: 100%
+}
+.moedl_img img{
+height: 100%;
+width: 100%
+}
+
+.div_content1{
+    text-align: right;
+    max-width: 380px;
+    margin:25px auto;
+}
+.blog_model_title1{
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* =========page contact========== */
+
+iframe{
+    width: 100%;
+    max-height: 450px;   
+}
+
+.last_contact .form-control {
+    border-radius:0;
+    font-size: 15px;
+ }
+ .contact{
+    max-width: 950px;
+ }
+
+   .contact textarea{
+    margin-left: 36px;
+    margin-top: 22px;
+ }
